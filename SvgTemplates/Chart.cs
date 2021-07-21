@@ -39,6 +39,11 @@ namespace SvgReport.SvgTemplates
         /// </summary>
         /// <value></value>
         private Frame Frame { get; set; }
+
+        private void Compute()
+        {
+            Console.WriteLine("Compute!");
+        }
     }
 
     public record Point(string Title, double Percentage);

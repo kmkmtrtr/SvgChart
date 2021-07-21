@@ -17,22 +17,24 @@ namespace SvgReport.SvgTemplates {
         public virtual string TransformText() {
             this.GenerationEnvironment = null;
 
-    Func<int, int, double> ComputeRad = (numer, denom) =>
-    {
-        return (2 * Math.PI / denom) * numer - (Math.PI / 2);
-    };
-    Func<double, double, double> ComputeX = (percentage, rad) => 
-    {
-        return 500 + Math.Cos(rad) * (percentage / 100) * 400;
-    };
-    Func<double, double, double> ComputeY = (percentage, rad) => 
-    {
-        return 500 + Math.Sin(rad) * (percentage / 100) * 400;
-    };
-    Func<int, int, int> ComputeCirculateIndex = (i, length) => 
-    {
-        return i < 0 ? length + i : i;
-    };
+            this.Compute();
+            
+            Func<int, int, double> ComputeRad = (numer, denom) =>
+            {
+                return (2 * Math.PI / denom) * numer - (Math.PI / 2);
+            };
+            Func<double, double, double> ComputeX = (percentage, rad) => 
+            {
+                return 500 + Math.Cos(rad) * (percentage / 100) * 400;
+            };
+            Func<double, double, double> ComputeY = (percentage, rad) => 
+            {
+                return 500 + Math.Sin(rad) * (percentage / 100) * 400;
+            };
+            Func<int, int, int> ComputeCirculateIndex = (i, length) => 
+            {
+                return i < 0 ? length + i : i;
+            };
 
             this.Write(@"<?xml version=""1.0"" encoding=""UTF-8""?>
 <!DOCTYPE svg PUBLIC ""-//W3C//DTD SVG 1.1//EN"" ""http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"">
