@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" style="background-color: rgb(255, 255, 255);">
+    <defs/>
+    <g>
+        <path d="M 500 100 L 314.1107311824926 145.81758973871604 L 170.80645364253746 272.77410130753765 L 102.91645036077841 451.7853278978708 L 125.9935029258341 641.8419548170142 L 234.75093670368193 799.4042992684405 L 404.2737342849769 888.3767269704208 L 595.7262657150229 888.3767269704208 L 765.249063296318 799.4042992684406 L 874.006497074166 641.8419548170143 L 897.0835496392216 451.78532789787073 L 829.1935463574628 272.7741013075381 L 685.8892688175074 145.81758973871598 L 500 100" fill="none" stroke="#DDD" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 500 L 500
+         80" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 500 L 695.1837322583829
+         128.10846922565185" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 500 L 845.6532236753357
+         261.4128063729146" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 500 L 916.9377271211827
+         449.37459429276424" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 500 L 892.7068219278742
+         648.9340525578649" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 500 L 778.5115164611341
+         814.3745142318623" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 500 L 600.5125790007744
+         907.7955633189418" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 500 L 399.48742099922583
+         907.795563318942" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 500 L 221.4884835388661
+         814.3745142318626" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 500 L 107.29317807212578
+         648.934052557865" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 500 L 83.06227287881728
+         449.3745942927646" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 500 L 154.34677632466418
+         261.41280637291464" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 500 L 304.81626774161697
+         128.10846922565196" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 500 368 L 425.64429247299694 358.32703589548646" stroke="#001dbc" />
+        <path d="M 661.7236638712315 191.86130307268297 L 500 368" stroke="#001dbc" />
+        <path d="M 704.0999987416268 359.11994281067336 L 661.7236638712315 191.86130307268297" stroke="#001dbc" />
+        <path d="M 631.0375713809432 484.0891582062973 L 704.0999987416268 359.11994281067336" stroke="#001dbc" />
+        <path d="M 664.562858712633 562.4104601194863 L 631.0375713809432 484.0891582062973" stroke="#001dbc" />
+        <path d="M 635.2770222811223 652.6961926269046 L 664.562858712633 562.4104601194863" stroke="#001dbc" />
+        <path d="M 531.5896676859577 628.1643199002389 L 635.2770222811223 652.6961926269046" stroke="#001dbc" />
+        <path d="M 422.4617247708314 814.585148846041 L 531.5896676859577 628.1643199002389" stroke="#001dbc" />
+        <path d="M 250.66588050146112 781.4400413123341 L 422.4617247708314 814.585148846041" stroke="#001dbc" />
+        <path d="M 189.57460742844233 617.7288224981219 L 250.66588050146112 781.4400413123341" stroke="#001dbc" />
+        <path d="M 257.77903472007483 470.5890500177013 L 189.57460742844233 617.7288224981219" stroke="#001dbc" />
+        <path d="M 197.14193735113435 290.9521732029347 L 257.77903472007483 470.5890500177013" stroke="#001dbc" />
+        <path d="M 425.64429247299694 358.32703589548646 L 197.14193735113435 290.9521732029347" stroke="#001dbc" />
+        <circle cx="500" cy="368" fill="#001dbc" r="3"/>
+        <circle cx="661.7236638712315" cy="191.86130307268297" fill="#001dbc" r="3"/>
+        <circle cx="704.0999987416268" cy="359.11994281067336" fill="#001dbc" r="3"/>
+        <circle cx="631.0375713809432" cy="484.0891582062973" fill="#001dbc" r="3"/>
+        <circle cx="664.562858712633" cy="562.4104601194863" fill="#001dbc" r="3"/>
+        <circle cx="635.2770222811223" cy="652.6961926269046" fill="#001dbc" r="3"/>
+        <circle cx="531.5896676859577" cy="628.1643199002389" fill="#001dbc" r="3"/>
+        <circle cx="422.4617247708314" cy="814.585148846041" fill="#001dbc" r="3"/>
+        <circle cx="250.66588050146112" cy="781.4400413123341" fill="#001dbc" r="3"/>
+        <circle cx="189.57460742844233" cy="617.7288224981219" fill="#001dbc" r="3"/>
+        <circle cx="257.77903472007483" cy="470.5890500177013" fill="#001dbc" r="3"/>
+        <circle cx="197.14193735113435" cy="290.9521732029347" fill="#001dbc" r="3"/>
+        <circle cx="425.64429247299694" cy="358.32703589548646" fill="#001dbc" r="3"/>
+        <text x="500" y="80" font-size="15" text-anchor="middle" dominant-baseline="central" >エネルギー</text>
+        <text x="695.1837322583829" y="128.10846922565185" font-size="15" text-anchor="middle" dominant-baseline="central" >たんぱく質</text>
+        <text x="845.6532236753357" y="261.4128063729146" font-size="15" text-anchor="middle" dominant-baseline="central" >脂質</text>
+        <text x="916.9377271211827" y="449.37459429276424" font-size="15" text-anchor="middle" dominant-baseline="central" >コレステロール</text>
+        <text x="892.7068219278742" y="648.9340525578649" font-size="15" text-anchor="middle" dominant-baseline="central" >炭水化物</text>
+        <text x="778.5115164611341" y="814.3745142318623" font-size="15" text-anchor="middle" dominant-baseline="central" >食塩相当量</text>
+        <text x="600.5125790007744" y="907.7955633189418" font-size="15" text-anchor="middle" dominant-baseline="central" >カルシウム</text>
+        <text x="399.48742099922583" y="907.795563318942" font-size="15" text-anchor="middle" dominant-baseline="central" >鉄</text>
+        <text x="221.4884835388661" y="814.3745142318626" font-size="15" text-anchor="middle" dominant-baseline="central" >ビタミンA</text>
+        <text x="107.29317807212578" y="648.934052557865" font-size="15" text-anchor="middle" dominant-baseline="central" >ビタミンB1</text>
+        <text x="83.06227287881728" y="449.3745942927646" font-size="15" text-anchor="middle" dominant-baseline="central" >ビタミンB2</text>
+        <text x="154.34677632466418" y="261.41280637291464" font-size="15" text-anchor="middle" dominant-baseline="central" >ナイアシン</text>
+        <text x="304.81626774161697" y="128.10846922565196" font-size="15" text-anchor="middle" dominant-baseline="central" >ビタミンC</text>
+    </g>
+</svg>

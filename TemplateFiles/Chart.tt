@@ -1,0 +1,41 @@
+<#@ template language="C#" linePragmas="false"#>
+<#
+    Func<int, int, double> ComputeRad = (numer, denom) =>
+    {
+        return (2 * Math.PI / denom) * numer - (Math.PI / 2);
+    };
+    Func<double, double, double> ComputeX = (percentage, rad) => 
+    {
+        return 500 + Math.Cos(rad) * (percentage / 100) * 400;
+    };
+    Func<double, double, double> ComputeY = (percentage, rad) => 
+    {
+        return 500 + Math.Sin(rad) * (percentage / 100) * 400;
+    };
+    Func<int, int, int> ComputeCirculateIndex = (i, length) => 
+    {
+        return i < 0 ? length + i : i;
+    };
+#>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" style="background-color: rgb(255, 255, 255);">
+    <defs/>
+    <g>
+        <path d="<#= Frame.Path #>" fill="none" stroke="<#= Frame.Color #>" stroke-width="<#= Frame.Width #>" stroke-miterlimit="10" pointer-events="stroke"/>
+<# for (var i = 0; i < points.Length; i++) { #>
+        <path d="M 500 500 L <#= ComputeX(105, ComputeRad(i, points.Length)) #>
+         <#= ComputeY(105, ComputeRad(i, points.Length)) #>" fill="none" stroke="#DDD" stroke-width="1" stroke-miterlimit="10" pointer-events="stroke"/>
+<# } #>
+<# for (var i = 0; i < points.Length; i++) { #>
+        <path d="M <#= ComputeX(points[i].Percentage, ComputeRad(i, points.Length)) #> <#= ComputeY(points[i].Percentage, ComputeRad(i, points.Length)) #> L <#= ComputeX(points[ComputeCirculateIndex(i - 1, points.Length)].Percentage, ComputeRad(ComputeCirculateIndex(i - 1, points.Length), points.Length)) #> <#= ComputeY(points[ComputeCirculateIndex(i - 1, points.Length)].Percentage, ComputeRad(ComputeCirculateIndex(i - 1, points.Length), points.Length)) #>" stroke="#001dbc" />
+<# } #>
+<# for (var i = 0; i < points.Length; i++) { #>
+        <circle cx="<#= ComputeX(points[i].Percentage, ComputeRad(i, points.Length)) #>" cy="<#= ComputeY(points[i].Percentage, ComputeRad(i, points.Length)) #>" fill="#001dbc" r="3"/>
+<# } #>
+<# for (var i = 0; i < points.Length; i++) { #>
+        <text x="<#= ComputeX(105, ComputeRad(i, points.Length)) #>" y="<#= ComputeY(105, ComputeRad(i, points.Length)) #>" font-size="15" text-anchor="middle" dominant-baseline="central" ><#= points[i].Title #></text>
+<# } #>
+    </g>
+</svg>
